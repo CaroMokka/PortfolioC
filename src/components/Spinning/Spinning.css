@@ -1,0 +1,86 @@
+.spinningtext-wrapper {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    background-color: transparent;
+    border-radius: 50%;
+    /* display: grid;
+    place-items: center; */
+    font-size: 1rem;
+    margin-left: auto;
+
+}
+.spinningtext {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: #fff;
+    animation: spin 50s linear infinite;
+    bottom: 40px;
+    right: 40px;
+}
+.spinningtext span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform-origin: 0 80px;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@media (max-width: 960px) {
+    .spinningtext-wrapper {
+        position: relative;
+        width: 160px;
+        height: 160px;
+        background-color: transparent;
+        border-radius: 50%;
+        /* display: grid;
+        place-items: center; */
+        font-size: 1rem;
+        margin-left: auto;
+        margin-top: 8em;
+    }
+    .spinningtext span {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform-origin: 0 80px;
+    }
+}
+@media (min-width: 960px) {
+    .spinningtext-wrapper {
+        position: relative;
+        width: 160px;
+        height: 160px;
+        background-color: transparent;
+        border-radius: 50%;
+        /* display: grid;
+        place-items: center; */
+        font-size: 1rem;
+        margin-left: auto;
+        margin-top: 10em;
+    }
+    .spinningtext {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        color: #fff;
+        animation: spin 50s linear infinite;
+        bottom: 160px;
+        right: 40px;
+    }
+    .spinningtext span {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform-origin: 0 80px;
+    }
+}

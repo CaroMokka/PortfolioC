@@ -1,0 +1,28 @@
+/* .tecno-container{
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 35vh;
+    padding: 50px 0 50px 0;
+}
+.tecno-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 100px 0 100px;
+} */
+.tecno-container{
+    background-color: white;
+    padding: 6vw 0;
+    border-bottom: solid 10px white;
+}
+.tecno-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding: 3rem 0;
+    font-weight: bolder;
+    margin-bottom: 1em;
+}
