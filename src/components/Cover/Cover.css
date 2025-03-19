@@ -24,12 +24,18 @@
     width: 100%;
     padding: 0 7em;
 }
-.container-title > img {
+.container-title > h1 {
+    color: #fff;
+    font-family: 'Ranade-Bold', sans-serif;
+    font-size: 22vh;
+}
+/* .container-title > img {
     object-fit: cover;
     width: 100%;
     height: 100%;
-}
+} */
 .cover-container > .cover-p {
+    font-family: 'Ranade-Thin', sans-serif;
     width: 100%;
     margin-top: 1rem;
     color: white;
@@ -88,6 +94,9 @@
         height: 100%;
         object-fit: cover;
     }
+    .container-title > h1 {
+        font-size: 14vh;
+    }
 }
 /* mobile */
 @media screen and (max-width: 460px){ 
@@ -110,6 +119,9 @@
         height: 40px;
         bottom: 100px;
         right: 100px;
+    }
+    .container-title > h1 {
+        font-size: 8vh;
     }
 }
 @media (min-width: 960px) {

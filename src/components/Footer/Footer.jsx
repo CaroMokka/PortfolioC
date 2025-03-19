@@ -4,7 +4,7 @@ export const Footer = () => {
         <footer className="footer-container text-uppercase">
             <div className="footer-info fw-lighter">
                 <h1>Carolina Araya González</h1>
-                <p><i class="fa-solid fa-map-location-dot"></i><span className='mx-4'>Santiago, Chile</span></p>
+                <p><i className="fa-solid fa-map-location-dot"></i><span className='mx-4'>Santiago, Chile</span></p>
             </div>
             <div className="footer-contact fw-lighter">
                 <h3>Contáctame</h3>

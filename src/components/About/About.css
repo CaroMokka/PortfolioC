@@ -1,6 +1,7 @@
+/* @import url('../../assets//css//ranade.css'); */
+
 /* #DBED64
 #FFE81C */
-
 .about-container{
     display: flex;
     flex-direction: column;
@@ -33,6 +34,7 @@
     padding: 1rem;
 }
 .title-aboutme {
+    font-family: 'Ranade-Regular', sans-serif;
     margin-bottom: 15px;
 }
 .title-aboutme-img {
@@ -63,6 +65,7 @@
 .about-description > .about-p {
     line-height: 1.8;
     margin: 0;
+    font-family: 'Ranade-Light', sans-serif;
 }
 .container-cv-typo {
     position: relative;
@@ -159,8 +162,8 @@
 
 .marquee span {
     font-size: 10vw;
-    /* padding: 0 2vw; */
     font-weight: bolder;
+    font-family: 'Ranade-Bold', sans-serif;
 }
 
 .marquee:hover .marquee__inner {

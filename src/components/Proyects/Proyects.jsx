@@ -1,13 +1,13 @@
 import "./Proyects.css"
-import imgStarWars from "../../assets/Star_Wars_.png"
-import spotify_img from "../../assets/spotify.png"
-import snakeGame from "../../assets/snakeGame.png"
-import ecommerceImage from "../../assets/card03.png"
+import imgStarWars from "../../assets/img/Star_Wars_.png"
+import spotify_img from "../../assets/img/spotify.png"
+import snakeGame from "../../assets/img/snakeGame.png"
+import ecommerceImage from "../../assets/img/card03.png"
 
 export const Proyects = () => {
     return (
         <section className="container-fluid container-proyects">
-        <div class="wrapper-proyects">
+        <div className="wrapper-proyects">
             <h3 className="proyects-title">Proyectos</h3>
             <div className="d-flex justify-content-around flex-wrap">
                 <div className="card rounded-0 m-2" style={{ width: '18rem' }}>
@@ -41,7 +41,7 @@ export const Proyects = () => {
                     <div className="card-body">
                         <h5 className="card-title">Ecommerce Shop</h5>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
+                            of the cards content.</p>
                     </div>
                     <div className="list-group rounded-0 text-end">
                         <a href="#" className="list-group-item list-group-item-action">Website</a>

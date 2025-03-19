@@ -1,5 +1,6 @@
+import PropTypes from "prop-types"
 import "./Navbar.css"
-import logo from "../../assets/logo-06.png"
+import logo from "../../assets/img/logo-06.png"
 
 export const Navbar = ({ isScrolling }) => {
     const toTheTop = () => {
@@ -13,4 +14,8 @@ export const Navbar = ({ isScrolling }) => {
 
         </nav>
     )
+}
+
+Navbar.propTypes = {
+    isScrolling: PropTypes.string
 }

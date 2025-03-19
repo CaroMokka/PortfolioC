@@ -12,6 +12,7 @@
     height: 100%;
 }
 .info > h1 {
+    font-family: 'Ranade-Bold', sans-serif;
     font-size: 4rem;
     text-align: center;
     padding: 0 10px;

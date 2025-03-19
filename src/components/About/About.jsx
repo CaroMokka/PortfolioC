@@ -1,5 +1,6 @@
 import "./About.css"
-import titleAbout from "../../assets/img-about.png"
+import "../../assets/css/ranade.css"
+import titleAbout from "../../assets/img/img-about.png"
 
 export const About = () => {
     //debe ser unna function asincrona
@@ -32,8 +33,8 @@ export const About = () => {
               <p className="about-p">
                 Desarrolladora Frontend con más de un año de experiencia en HTML,
                 CSS, JavaScript, React, Nodejs y otras tecnologías. Egresada
-                del Bootcamp Fullstack JavaScript de Talento Digital. Apasionada,
-                autodidacta y siempre en constante aprendizaje para mantenerme
+                del Bootcamp Fullstack JavaScript de Talento Digital. Autodidacta,
+                apasionada y siempre en constante aprendizaje para mantenerme
                 actualizada con las últimas tendencias del desarrollo. Valoro la
                 colaboración y la comunicación efectiva, y creo en el trabajo en
                 equipo para alcanzar metas comunes.

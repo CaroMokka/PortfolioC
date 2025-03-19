@@ -25,6 +25,7 @@
     top: 0;
     left: 50%;
     transform-origin: 0 80px;
+    font-family: 'Ranade-Thin', sans-serif;
 }
 @keyframes spin {
     0% {
