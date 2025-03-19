@@ -1,8 +1,10 @@
+import PropTypes from "prop-types"
 import "./Spinning.css"
+
+
 export function Spinning({ text, children }) {
-    const lenghtSpinning = text.length;//length
-    const deg = 360 / lenghtSpinning;
-  console.log(lenghtSpinning)
+    const lengthSpinning = text.length;//length
+    const deg = 360 / lengthSpinning;
     return (
       <div className="spinningtext-wrapper">
         <div className="spinningtext">
@@ -18,4 +20,10 @@ export function Spinning({ text, children }) {
         {children}
       </div>
     );
+  }
+
+  //Definición de PropTypes
+  Spinning.propTypes = {
+    text: PropTypes.string.isRequired,
+    children: PropTypes.node
   }
