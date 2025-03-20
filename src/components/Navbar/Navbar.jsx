@@ -17,5 +17,5 @@ export const Navbar = ({ isScrolling }) => {
 }
 
 Navbar.propTypes = {
-    isScrolling: PropTypes.string
+    isScrolling: PropTypes.number
 }
