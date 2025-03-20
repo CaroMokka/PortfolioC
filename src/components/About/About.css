@@ -6,17 +6,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #DBED64;
+    /* background-color: #DBED64; */
     color: black;
     height: 80vh;
     /* padding: 100px 0 100px 0; */
+    background-color: #fff;
 }
-.wrapper-aboutme {
+.about-container__content {
     display: flex;
     flex-direction: row-reverse;
     height: 80vh;
+    position: relative;
 }
-.about-description {
+.about-container__image-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.about-container__image-wave .wave-top {
+    position: absolute;
+    top: 0;
+}
+.about-container__image-wave .wave-bottom {
+    position: absolute;
+    bottom: 0;
+}
+.about-container__description {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,43 +44,33 @@
 .about-h3{
     margin: 0 0 3rem 3rem;
 }
-.container-aboutme {
+.about-container__image {
+    background-color: #fff;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     width: 50%;
-    padding: 1rem;
+    /* padding: 1rem; */
+}
+.about-container__image > h1 {
+    font-family: 'Ranade-Bold', sans-serif;
+    font-size: 12vh;
+    margin: auto;
+    text-align: center;
 }
 .title-aboutme {
     font-family: 'Ranade-Regular', sans-serif;
     margin-bottom: 15px;
 }
-.title-aboutme-img {
-    filter: invert(1);
-}
-/* .container-link-cv {
- height: 4em;
- width: 10em;
- display: flex;
- justify-content: center;
- align-items: center;
- border: solid 4px #1b1d23;
- border-radius: 20px 0 20px 0;
- cursor: pointer;
- margin-bottom: 30px;
-}
-.link-cv {
-    font-size: 1rem;
-    text-align: center;
-    text-decoration: none;
-    color: #1b1d23;
-} */
-.container-aboutme > img {
-    object-fit: contain;
-    width: 90%;
+.about-container__image .about-container__image-woman {
+    object-fit: cover;
+    width: 100%;
     height: 100%;
+    z-index: 2;
+    margin-left: auto;
+    
 }
-.about-description > .about-p {
+.about-container__description > .about-p {
     line-height: 1.8;
     margin: 0;
     font-family: 'Ranade-Light', sans-serif;
@@ -86,7 +94,7 @@
 
 }
 @media (max-width: 760px) {
-    .wrapper-aboutme {
+    .about-container__content {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -95,20 +103,20 @@
     .about-h3{
         margin: 3rem 0 0 3rem;
     }
-    .about-description > .about-p{
+    .about-container__description > .about-p{
         font-size: 0.9rem;
     }
-    .container-aboutme {
+    .about-container__image {
         width: 100%;
         padding: 1rem;
         margin: 20px 0 20px 0;
     }
-    .container-aboutme > img {
+    .about-container__image > img {
         object-fit: contain;
         width: 94%;
         height: 100%;
     }
-    .about-description {
+    .about-container__descriptionn {
         width: 100%;
         margin: 0 auto;
         padding: 10px 0px 50px 0px !important;
@@ -120,12 +128,12 @@
         padding: 0;
         height: auto;
     }
-    .about-description {
+    .about-container__description {
         width: 90%;
         margin: 0 auto;
         padding: 60px;
     }
-    .about-description > .about-h3 {
+    .about-container__description > .about-h3 {
         font-size: 30px;
         text-align: center;
     }
